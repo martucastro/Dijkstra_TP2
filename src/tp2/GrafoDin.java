@@ -3,6 +3,8 @@ package tp2;
 import java.util.*;
 
 public class GrafoDin implements GrafoTDA{
+
+
     class NodoArista {
         int peso;
         NodoGrafo nodoDestino;
