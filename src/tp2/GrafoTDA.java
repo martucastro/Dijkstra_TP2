@@ -10,6 +10,4 @@ public interface GrafoTDA {
     int pesoArista(int origen, int destino);          // Devuelve el peso de una arista
     ConjuntoTDA vertices();                           // Devuelve el conjunto de vértices
 
-    // Calcula costos o caminos mínimos desde un nodo según el valor del parámetro
-    GrafoTDA dijkstra(int origen, boolean devolverCaminos);
 }
